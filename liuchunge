@@ -351,3 +351,6 @@
 @@||static.geetest.com^
 !放行UU加速器路由器插件
 @@||router.uu.163.com^
+@@||q1.quotes.com^
+!放行akamai加速域名
+@@||whoami.akamai.net^
