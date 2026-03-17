@@ -1,2 +1,2 @@
-#自己整理的拦截规则和放行规则使用于Adguardhome
-Adguardhome-rules
+#由本人整理的拦截规则和放行规则使用于Adguardhome
+
