@@ -345,3 +345,5 @@
 !放行极验验证码域名
 @@||api.geetest.com^
 @@||static.geetest.com^
+!放行UU加速器路由器插件
+@@||router.uu.163.com^
