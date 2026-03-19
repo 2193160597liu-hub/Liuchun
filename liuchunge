@@ -1,4 +1,4 @@
-#The latest update 2026.3.17 by liuchun 
+#The latest update 2026.3.19 by liuchun 
 
 
 #放行123云盘
@@ -354,3 +354,15 @@
 @@||q1.quotes.com^
 !放行akamai加速域名
 @@||whoami.akamai.net^
+！放行谷歌更新域名
+@@||ugoogleapis.com^
+！拦截酷狗音乐P2P穿透
+||pstun.kugou.com^
+||webcollectsretry.kugou.com^
+!爱奇艺奇秀直播
+@@||m-glider-xiu.pps.tv^
+!抖音直播框架放行
+@@||bytetcc.com^
+@@||n98-lf9-dy-ncdn-tos-sub.bytegecko.com^
+!放行虎牙CDN加速
+@@||cdn.wup.huya.com^
