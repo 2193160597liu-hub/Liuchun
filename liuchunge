@@ -347,6 +347,7 @@
 !抖音电商域名放行
 @@||ecombdimg.com^
 !放行极验验证码域名
+@@||www.geetest.com^
 @@||api.geetest.com^
 @@||static.geetest.com^
 !放行UU加速器路由器插件
@@ -366,3 +367,8 @@
 @@||n98-lf9-dy-ncdn-tos-sub.bytegecko.com^
 !放行虎牙CDN加速
 @@||cdn.wup.huya.com^
+!乐播投屏控制广告接口、快手广告调度、宙斯广告API、知乎广告
+||vosdkauth.hpplay.cn^
+||httpdns.kwd.inkuai.com^
+||zeus-api.vemarsdev.com^
+||duga.zhihu.com^
