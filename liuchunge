@@ -1,4 +1,4 @@
-#The latest update 2026.3.19 by liuchun 
+#The latest update 2026.3.27 by liuchun 
 
 
 #放行123云盘
@@ -372,3 +372,34 @@
 ||httpdns.kwd.inkuai.com^
 ||zeus-api.vemarsdev.com^
 ||duga.zhihu.com^
+！知网广告域名（智赢广告服务平台）
+||ad.cnki.net^
+！广告包括嗨量科技广告、AD妈妈
+||yingt.fun^
+||ads.lerist.cc^
+||adsbdfs.heytapimage.com^
+||admamax.com^
+||halomobi.com^
+! 通义千问内部广告/用户行为数据收集域名
+||adtrack.qianwen.com^
+! 欢太OPPO 内部监控域名
+||traffic-monitor-cn.allawntech.com^
+!放行微信朋友圈（SNS）小图、封面图、预览图
+@@||wxsnsdythumb.wxs.qq.com^
+！数字天堂拦截广告域名
+||s2.dcloud.net.cn^
+!欢太OPPO跟踪域名
+||apisnd.heytapmobi.com^
+!拦截豆包日志埋点
+||log.doubao.com^
+! 放行字节跳动CDN节点直播/视频CDN加速节点（TOS对象存储）
+@@||lf9-webcast-cdn-tos-ncdn.bytegecko.com^
+!放行百度CDN
+@@||guarantee.cdn.bcebos.com^
+!迅雷网页静态资源放行
+@@||saas.bk-cdn01.com^
+@@||assets.bk-cdn01.com^
+!拦截天目sdk广告
+||sdk.tianmu.mobi^
+!放行WPS教育版
+@@||v1-edu.wpscdn.cn^
