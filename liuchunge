@@ -250,8 +250,9 @@
 ||iggrowth.cn^
 @@||surveymonkey.com^
 ||qtaeixd.com^
-!拼多多图片
-@@||images.pinduoduo.com^
+!拦截拼多多广告图片、视频
+||images.pinduoduo.com^
+||video-dsp.pddpic.com^
 !驾校一点通广告
 ||richmanrank.ksedt.com^
 !全民K歌放行
@@ -403,3 +404,18 @@
 ||sdk.tianmu.mobi^
 !放行WPS教育版
 @@||v1-edu.wpscdn.cn^
+!放行B站弹幕交互域名、更新域名
+@@||broadcast.chat.bilibili.com^
+@@||dl.hdslb.com^
+!北京朝夕光年信息技术有限公司字节跳动旗下，广告数据统计 SDK、用户行为追踪域名
+||gpsdk.dailygn.com^
+!腾讯云直播视频域名放行
+@@||mlvbdc.live.tlivesource.com^
+@@||license.vod2.myqcloud.com^
+! 抖音官方静态资源 CDN
+@@||sf6-cdn-tos.douyinstatic.com^
+!放行爱快
+@@||ikuaios.com^
+!统计广告域名
+||tongji.oozk.cn^
+@@||zyb-jiazhang.cdnjtzy.com^
