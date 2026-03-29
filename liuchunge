@@ -398,8 +398,7 @@
 !放行百度CDN
 @@||guarantee.cdn.bcebos.com^
 !迅雷网页静态资源放行
-@@||saas.bk-cdn01.com^
-@@||assets.bk-cdn01.com^
+@@||bk-cdn01.com^
 !拦截天目sdk广告
 ||sdk.tianmu.mobi^
 !放行WPS教育版
@@ -423,3 +422,12 @@
 @@||zyb-jiazhang-1.cdnjtzy.com^
 @@||zyb-jiazhang-2.cdnjtzy.com^
 @@||zyb-jiazhang-3.cdnjtzy.com^
+!作业帮、大学搜题酱广告、统计域名
+||sanxia.zybang.com^
+||pluto.zuoyebang.com^
+||abtest.zuoyebang.com^
+!放行开通作业帮、大学搜题酱VIP域名及相关静态图片域名
+@@||vip-3.cdnjtzy.com^
+@@||vip.cdnjtzy.com^
+@@||sell-img.cdnjtzy.com^
+@@||plat-h5.cdnjtzy.com^
