@@ -487,8 +487,6 @@
 ||tdid.m.qq.com^
 !cloudflare静态资源CDN域名
 @@||static.cloudflareinsights.com^
-!万年历广告域名
-||coco70.51wnl-cq.com^
 !广告
 ||status-ipv6.jpush.cn^
 ||c-gi.getui.net^
@@ -514,3 +512,7 @@
 ||getui.net^
 !放行阿里推送
 @@||mpush-api.aliyun.com^
+！北京中科博远科技有限公司广告SDK，快手旗下
+||xxpkg.com^
+!放行人生K线
+@@||www.lifekline.cn^
