@@ -519,7 +519,7 @@
 !OPPO/真我手机天气系统下发配置域名
 @@||cloudconf-app-cn.heytapmobi.com^
 @@||obus-cn.dc.heytapmobi.com^
-@@||tobapplog.ctobsnssdk.com^
+||tobapplog.ctobsnssdk.com^
 @@||heytapmobi.com^
 ||cl-data.ads.heytapmobi.com^
 @@||traffic-operation-cn.allawntech.com^
@@ -533,3 +533,15 @@
 @@||hm.baidu.com^
 !拦截OPPO广告
 ||push-ads-cn.heytapmobi.com^
+||adx.ads.heytapmobi.com^
+!放行字节跳动官方核心验证域名，会影响抖音登录验证
+@@||verify.snssdk.com^
+！放行爱快云
+@@||yun-static.ikuai8.com^
+!放行斗鱼及CDN加速域名、账号登入域名
+@@||www.douyu.com^
+@@||shark2.douyucdn.cn^
+@@||sta-op.douyucdn.cn^
+@@||passport.douyu.com^
+! 放行GitHub 官方租用的 AWS S3 存储桶域名
+@@||github-cloud.s3.amazonaws.com^
