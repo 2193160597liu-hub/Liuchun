@@ -532,8 +532,8 @@
 @@||api.cdo.oppomobile.com^
 @@||hm.baidu.com^
 !拦截OPPO广告
-||push-ads-cn.heytapmobi.com^
-||adx.ads.heytapmobi.com^
+||push-ads-cn.heytapmobi.com^$important
+||adx.ads.heytapmobi.com^$important
 !放行字节跳动官方核心验证域名，会影响抖音登录验证
 @@||verify.snssdk.com^
 ！放行爱快云
@@ -543,5 +543,18 @@
 @@||shark2.douyucdn.cn^
 @@||sta-op.douyucdn.cn^
 @@||passport.douyu.com^
-! 放行GitHub 官方租用的 AWS S3 存储桶域名
+！GitHub 官方租用的 AWS S3 存储桶域名
 @@||github-cloud.s3.amazonaws.com^
+！阿里系（菜鸟）的用户行为统计 / 数据埋点域名
+||h-adashx.ut.cainiao.com^
+!OPPO 欢太广告，浏览器开屏广告
+||adsfs.heytapimage.com^$important
+!放行漫步者耳机驱动
+@@||cn-oss.edifier.com^
+# 拦截OPPO数据统计上报（h.opdwz.cn）
+||h.opdwz.cn^$important
+# 放行知乎视频 CDN（必须）
+@@||vzuu.com^
+@@||vdn6.vzuu.com^
+# 拦截驾校一点通埋点/统计/追踪
+||muses.ksedt.com^
