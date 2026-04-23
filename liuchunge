@@ -1,4 +1,4 @@
-#The latest update 2026.3.27 by liuchun 
+#The latest update 2026.4.23 by liuchun 
 
 
 #放行123云盘
@@ -558,3 +558,26 @@
 @@||vdn6.vzuu.com^
 # 拦截驾校一点通埋点/统计/追踪
 ||muses.ksedt.com^
+# 拦截腾讯 snowflake 雪花ID/埋点/追踪
+||snowflake.qq.com^$important
+# 拦截腾讯 nfa 游戏/广告/活动CDN
+||cdn.nfa.qq.com^$important
+||imgewebp.kugou.com^
+# 拦截中国移动贯众网广告/统计域名
+||sp.aifast.komect.com^$important
+# 拦截天娲传媒广告/数据统计域名
+||sdkgen.data.tianwenca.com^$important
+!拦截流量果广告，运营商合作广告公司
+||liuliangguo.com^$important
+!广告
+||yingt.asia^$important
+||amsweb-cdn-gz-1258344696.file.myqcloud.com^$important
+||antpcdn.com^$important
+# 芒拓Menta广告
+||mentamob.com^
+# 百度移动广告联盟，用于拉取App内广告、统计曝光
+||mobads.baidu.com^$important
+# 百度推广广告/营销素材静态资源，可拦截
+||b.bdstatic.com^$important
+!网心云CDN穿透/ikuai云穿透/迅雷星域CDN
+@@||xycdn.com^$important
